@@ -1,0 +1,16 @@
+<div class="global">
+    <div>
+            <p class="titulo">Entrada de dados</p>
+        </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text label">Usuario e senha</span>
+        </div>
+        <input type="text" aria-label="First name" class="form-control" [(ngModel)]="usuario.username">
+        <input type="text" aria-label="Last name" class="form-control" [(ngModel)]="usuario.password">
+    </div>
+    
+    <div class="botaoEspaco">
+            <button (click)="enviarDados();" class="botao"> Enviar Dados</button>
+    </div>
+</div>

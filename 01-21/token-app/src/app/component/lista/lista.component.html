@@ -1,0 +1,11 @@
+<div class="backgroud">
+    <h3 class="titulo">Listando Produtos</h3>
+
+    <div *ngFor="let ITEM of listaProdutos" class="tabela">
+        <p>Id do produto: {{ITEM.id}}</p>
+        <p>Nome: {{ITEM.nome}}</p>
+        <p>Valor: {{ITEM.valor}}</p>
+        <p>Codigo de Barras: {{ITEM.codigoBarras}}</p>
+    </div>
+    <br><br>
+</div> 

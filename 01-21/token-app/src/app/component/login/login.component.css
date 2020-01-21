@@ -1,0 +1,25 @@
+.global {
+    padding: 35px;
+    text-align: center;
+}
+
+.titulo {
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.botao {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: blueviolet;
+    color: azure;
+}
+
+.botaoEspaco{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+}

@@ -1,0 +1,17 @@
+.titulo {
+    text-align: center;
+    color: azure;
+    padding-top: 30px;
+}
+
+.tabela{
+    padding: 20px;
+    margin: 30px 20px;
+    border: solid 1px;
+    text-align: center;
+    background-color: rgb(137, 157, 211);
+}
+
+.backgroud {
+    background-color: #305070;
+}
